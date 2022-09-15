@@ -20,7 +20,7 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 
 * Instancia de PfSense configurada
 
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/PfSense_logo.png/1200px-PfSense_logo.png" alt="PfSense" width="250" height="150"></p>
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/PfSense_logo.png/1200px-PfSense_logo.png" alt="PfSense" width="350" height="150"></p>
 
 * Paquete de FreeRadius para PfSense
 
