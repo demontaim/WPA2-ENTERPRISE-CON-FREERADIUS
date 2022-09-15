@@ -14,6 +14,8 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 
 * Software controlador de nuestro AP (UniFi Controller)
 
+<p align="center"><img src="https://assets.stickpng.com/images/586abf59b6fc1117b60b2750.png" alt="Download" width="150" height="150"></p>
+
 * Instancia de PfSense configurada
 
 * Paquete de FreeRadius para PfSense
