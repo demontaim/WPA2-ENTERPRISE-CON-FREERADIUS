@@ -14,7 +14,9 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 
 * Software controlador de nuestro AP (UniFi Controller)
 
-<a href="#" class="button">Descargar (link)</a>
+<a href="https://www.ui.com/download/unifi/#" class="button">Descargar para Windows (link)</a>
+
+<a href="https://www.ui.com/download/unifi/#" class="button">Descargar para Linux (link)</a>
 
 * Instancia de PfSense configurada
 
