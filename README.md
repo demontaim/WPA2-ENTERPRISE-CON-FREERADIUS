@@ -10,7 +10,7 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 
 * 1 Access Point (UniFi AC-PRO)
 
-![UniFi AC-PRO](https://gfx.senetic.com/i/gallery/29721142_9440.jpg "UniFi AC-PRO")
+<img src="https://cdn.shopify.com/s/files/1/0019/7518/9613/products/UAP-AC-PRO_grande.png?v=1616583501" alt="UniFi AC-PRO" title="UniFi AP-PRO" width="150" height="100" /> 
 
 
 * Software controlador de nuestro AP (UniFi Controller)
