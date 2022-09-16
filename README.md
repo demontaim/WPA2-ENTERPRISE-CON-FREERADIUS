@@ -170,3 +170,92 @@ Se nos iniciará una interfaz web dónde podemos configurar el punto de acceso.
 
 Se nos abrirá una pestaña en la que tendremos que autenticarnos con nuestra cuenta de
 UniFi. Si no posees una puedes registrarte accediendo a través de este [link](https://account.ui.com/register).
+
+Una vez hemos iniciado sesión con nuestra cuenta debemos configurar nuestro servidor
+radius.
+
+Para ello accederemos a la configuración del punto de acceso tal y como se muestra en la
+siguiente imagen:
+
+<p align="center"><img src="unifi_config_menu.png" alt="UniFi Configuration"></p>
+
+Para ello debemos darle de alta en los perfiles de nuesto AP:
+
+<p align="center"><img src="unifi_profiles.png" alt="UniFi Profiles"></p>
+
+En esta pestaña encontraremos un apartado dedicado a los perfiles del servidor radius:
+
+<p align="center"><img src="unifi_radius.png" alt="UniFi Radius"></p>
+
+Crearemos un perfil nuevo. Configurando los siguientes parámetros:
+
+<p align="center"><img src="unifi_radius_config.png" alt="UniFi Radius Config"></p>
+
+**Name:** Nombre que le daremos al perfil y que hace referencia a nuestro servidor Radius.
+
+**Radius Assigned VLAN Support:** Esta configuración hace que según con el usuario que
+nos autenticamos nos asigna una VLAN que deberíamos tener previamente configurada en
+nuestro controlador. (Nosotros omitimos esta configuración).
+
+**Authentication Servers:** IP del servidor Radius junto con la interfaz a la que hace
+referencia. Nosotros usaremos las dos que creamos previamente (1812 = “Authentication” y
+1813 = “Accounting”). También tenemos que aportar el “Shared Secret” que usamos para
+dar de alta a nuestro AP. Si estos Shared Secrets no coinciden nuestro AP no podrá solicitar la autenticación a nuestro servidor Radius.
+
+### 7.Configurar la autenticación WPA2 / Enterprise <a name="freeradius-wpa2-enterprise"></a>
+
+Habilitar la red WiFi creada para que la autenticación sea por WPA2 / Enterprise usando
+nuestro servidor Radius.
+
+Para ello debemos ir al apartado de configuración de nuestra WiFi:
+
+<p align="center"><img src="unifi_wifi_config.png" alt="UniFi WiFi Config"></p>
+
+Seleccionamos nuestra red:
+
+<p align="center"><img src="unifi_wifi_network.png" alt="UniFi WiFi Network"></p>
+
+Una vez abierta la configuración de nuestra red debemos acceder a la configuración
+avanzada:
+
+<p align="center"><img src="unifi_wifi_advanced.png" alt="UniFi WiFi Advanced"></p>
+
+Y en el apartado de seguridad debemos seleccionar la autenticación WPA2 / Enterprise a
+la vez que elegimos el perfil Radius que creamos previamente.
+
+<p align="center"><img src="unifi_wifi_security.png" alt="UniFi WiFi Security"></p>
+
+Por ahora ya tendríamos la autenticación WPA2 / Enterprise habilitada, notaremos que
+nuestro Punto de Acceso se reiniciará durante unos segundos y volverá a levantar nuestra
+WiFi pero esta vez utilizando las medidas de seguridad que le hemos configurado.
+
+### 8.(TEST) Prueba de autenticación <a name="freeradius-test"></a>
+
+Para realizar una prueba de autentificación voy a realizarla en un iPhone 12, en el cual me conectaré al punto WiFi que acabamos de crear para verificar que se me instala el certificado y se me conecta adecuadamente.
+
+Seleccionamos nuestro AP:
+
+<p align="center"><img src="iphone_wifi.png" alt="iPhone WiFi"></p>
+
+Insertamos nuestras credenciales:
+
+<p align="center"><img src="iphone_credentials.png" alt="iPhone Credentials"></p>
+
+Instalamos el certificado generado por nuestra entidad de confianza:
+
+<p align="center"><img src="iphone_cert.png" alt="iPhone Cert"></p>
+
+Comprobamos la conexión:
+
+<p align="center"><img src="iphone_connected.png" alt="iPhone Connected"></p>
+
+Hemos verificado que tenemos acceso con nuestras credenciales y que el punto de acceso
+queda configurado.
+
+---
+
+## Links Opcionales
+
+* [Manual de Usuario Access Point UniFi AC-PRO](https://dl.ui.com/qsg/UAP-AC-PRO/UAP-AC-PRO_ES.html)
+
+* [Documentación de PfSense](https://docs.netgate.com/pfsense/en/latest/)
