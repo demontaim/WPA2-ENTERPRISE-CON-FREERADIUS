@@ -113,4 +113,4 @@ también debemos incluirlo.
 
 Añadiremos uno configurando los siguientes parámetros:
 
-<p align="center"><img src="" alt="AP Config"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/apconfig.png" alt="AP Config"></p>
