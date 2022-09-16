@@ -60,4 +60,6 @@ Una vez nos situamos en el manejador de paquetes de PfSense debemos buscar en
 
 <p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/packagemanager.png?raw=true" alt="Freeradius Package"></p>
 
-<span style="color:red";font-weight:700;font-size:20px">"En mi caso no aparece puesto que ya lo tenemos instalado.”</span>
+<span style="color:green;font-weight:700;font-size:20px">
+    markdown color font styles
+</span>
