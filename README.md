@@ -26,6 +26,8 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Freeradius_logo.svg/2560px-Freeradius_logo.svg.png" alt="FreeRadius" width="250" height="70"></p>
 
+---
+
 ### Guía paso a paso
 
 1. [Instalación del paquete “FreeRadius”](#freeradius-install)
