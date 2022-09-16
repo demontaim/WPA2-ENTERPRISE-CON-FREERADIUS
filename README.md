@@ -92,4 +92,4 @@ Crearemos en nuestro caso una para la **“Autenticación”**:
 
 Añadiremos una nueva interfaz con los siguientes parámetros:
 
-<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/packagemanager.png?raw=true" alt="Auth Interface"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/auth_interface.png" alt="Auth Interface"></p>
