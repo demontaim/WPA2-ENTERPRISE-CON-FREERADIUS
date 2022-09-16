@@ -24,4 +24,4 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 
 * Paquete de FreeRadius para PfSense
 
-<p align="center"><img src="https://commons.wikimedia.org/wiki/File:Freeradius_logo.svg" alt="FreeRadius" width="250" height="70"></p>
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Freeradius_logo.svg/2560px-Freeradius_logo.svg.png" alt="FreeRadius" width="250" height="70"></p>
