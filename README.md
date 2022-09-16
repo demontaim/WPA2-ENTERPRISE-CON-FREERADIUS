@@ -162,11 +162,11 @@ versiones de Windows y Ubuntu para que no tengáis que buscarlos arriba:
 Una vez instalada la aplicación y estando conectados al Access Point abriremos la
 aplicación.
 
-<p align="center"><img src="unifi_software.png" alt="UniFi Software"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_software.png" alt="UniFi Software"></p>
 
 Se nos iniciará una interfaz web dónde podemos configurar el punto de acceso.
 
-<p align="center"><img src="unifi_dashboard.png" alt="UniFi Login"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_dashboard.png" alt="UniFi Login"></p>
 
 Se nos abrirá una pestaña en la que tendremos que autenticarnos con nuestra cuenta de
 UniFi. Si no posees una puedes registrarte accediendo a través de este [link](https://account.ui.com/register).
