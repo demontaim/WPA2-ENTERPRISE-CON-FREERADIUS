@@ -135,3 +135,38 @@ Una vez allí solo tenemos que añadir nuevos usuarios usando los siguientes par
 defecto:
 
 <p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/users_config.png?raw=true" alt="Users Config"></p>
+
+Una vez configurado nuestro servidor Radius debemos ir a cada punto de acceso para
+configurar la autenticación **WPA2 / Enterprise y dar de alta nuestro servidor Radius**.
+
+### 6.Configuración de los AP’s <a name="freeradius-ap-config"></a>
+
+Tenemos que configurar cada Access Point uno a uno. En nuestro caso se realizaron pruebas con Ruckus pero me resultó bastante lioso y tuve
+varios errores ya que no conocía el software de Ruckus.
+
+Luego probé con el UniFi AC-PRO y la configuración fue bastante sencilla la verdad.
+
+En este tutorial vamos a realizar la configuración con el UniFi AC-PRO.
+
+Para configurar inicialmente este dispositivo vamos a tener que conectarlo a un cable de red POE y conectarnos también con un cable ethernet.
+
+Si conectamos nuestro AP a la red directamente este obtendrá una dirección por DHCP.
+
+Debemos tener instalada el controlador de UniFi, el cual voy a dejar los links de las
+versiones de Windows y Ubuntu para que no tengáis que buscarlos arriba:
+
+<a href="https://www.ui.com/download/unifi/#" class="button">Descargar para Windows (link)</a>
+
+<a href="https://www.ui.com/download/unifi/#" class="button">Descargar para Linux (link)</a>
+
+Una vez instalada la aplicación y estando conectados al Access Point abriremos la
+aplicación.
+
+<p align="center"><img src="unifi_software.png" alt="UniFi Software"></p>
+
+Se nos iniciará una interfaz web dónde podemos configurar el punto de acceso.
+
+<p align="center"><img src="unifi_dashboard.png" alt="UniFi Login"></p>
+
+Se nos abrirá una pestaña en la que tendremos que autenticarnos con nuestra cuenta de
+UniFi. Si no posees una puedes registrarte accediendo a través de este [link](https://account.ui.com/register).
