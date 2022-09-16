@@ -177,11 +177,11 @@ radius.
 Para ello accederemos a la configuración del punto de acceso tal y como se muestra en la
 siguiente imagen:
 
-<p align="center"><img src="unifi_config_menu.png" alt="UniFi Configuration"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_config_menu.png" alt="UniFi Configuration"></p>
 
 Para ello debemos darle de alta en los perfiles de nuesto AP:
 
-<p align="center"><img src="unifi_profiles.png" alt="UniFi Profiles"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_profiles.png" alt="UniFi Profiles"></p>
 
 En esta pestaña encontraremos un apartado dedicado a los perfiles del servidor radius:
 
