@@ -209,21 +209,21 @@ nuestro servidor Radius.
 
 Para ello debemos ir al apartado de configuración de nuestra WiFi:
 
-<p align="center"><img src="unifi_wifi_config.png" alt="UniFi WiFi Config"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_wifi_config.png" alt="UniFi WiFi Config"></p>
 
 Seleccionamos nuestra red:
 
-<p align="center"><img src="unifi_wifi_network.png" alt="UniFi WiFi Network"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_wifi_network.png" alt="UniFi WiFi Network"></p>
 
 Una vez abierta la configuración de nuestra red debemos acceder a la configuración
 avanzada:
 
-<p align="center"><img src="unifi_wifi_advanced.png" alt="UniFi WiFi Advanced"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_wifi_advanced.png" alt="UniFi WiFi Advanced"></p>
 
 Y en el apartado de seguridad debemos seleccionar la autenticación WPA2 / Enterprise a
 la vez que elegimos el perfil Radius que creamos previamente.
 
-<p align="center"><img src="unifi_wifi_security.png" alt="UniFi WiFi Security"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_wifi_security.png" alt="UniFi WiFi Security"></p>
 
 Por ahora ya tendríamos la autenticación WPA2 / Enterprise habilitada, notaremos que
 nuestro Punto de Acceso se reiniciará durante unos segundos y volverá a levantar nuestra
