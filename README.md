@@ -166,7 +166,7 @@ aplicación.
 
 Se nos iniciará una interfaz web dónde podemos configurar el punto de acceso.
 
-<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_dashboard.png" alt="UniFi Login" width="500px" height="500px"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_dashboard.png" alt="UniFi Login" width="550px" height="500px"></p>
 
 Se nos abrirá una pestaña en la que tendremos que autenticarnos con nuestra cuenta de
 UniFi. Si no posees una puedes registrarte accediendo a través de este [link](https://account.ui.com/register).
