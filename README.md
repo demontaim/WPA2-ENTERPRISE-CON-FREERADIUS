@@ -134,4 +134,4 @@ Para añadir usuarios a nuestro servidor debemos ir a la siguiente ruta:
 Una vez allí solo tenemos que añadir nuevos usuarios usando los siguientes parámetros por
 defecto:
 
-<p align="center"><img src="user_config.png" alt="AP Config"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/users_config.png?raw=true" alt="Users Config"></p>
