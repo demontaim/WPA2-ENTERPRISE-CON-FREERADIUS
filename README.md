@@ -73,11 +73,11 @@ Lo podemos comprobar si nos situamos en la siguiente ruta:
 
 **System → Cert Manager → CA’s**
 
-<p align="center"><img src="img" alt="Freeradius CA"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/freeradius_ca.jpg" alt="Freeradius CA"></p>
 
 **System → Cert Manager → Certificates**
 
-<p align="center"><img src="img" alt="Freeradius Certificate"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/freeradius_cert.png" alt="Freeradius Certificate"></p>
 
 ### 3.Configuración de las interfaces de nuestro servidor FreeRadius <a name="freeradius-interfaces"></a>
 
