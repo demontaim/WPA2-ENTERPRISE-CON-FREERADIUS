@@ -73,4 +73,23 @@ Lo podemos comprobar si nos situamos en la siguiente ruta:
 
 **System → Cert Manager → CA’s**
 
+<p align="center"><img src="img" alt="Freeradius CA"></p>
 
+**System → Cert Manager → Certificates**
+
+<p align="center"><img src="img" alt="Freeradius Certificate"></p>
+
+### Configuración de las interfaces de nuestro servidor FreeRadius <a name="freeradius-interfaces"></a>
+
+Una vez realizada la instalación podemos continuar con la configuración de nuestras
+interfaces por la que un usuario al acceder al Wifi va a poder autenticarse con nuestro
+servidor.
+
+Para configurar nuestro servidor Radius debemos ir a **Services → FreeRadius →**
+**Interfaces**
+
+Crearemos en nuestro caso una para la **“Autenticación”**:
+
+Añadiremos una nueva interfaz con los siguientes parámetros:
+
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/packagemanager.png?raw=true" alt="Auth Interface"></p>
