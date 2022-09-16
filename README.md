@@ -43,7 +43,7 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 
 ---
 
-### Instalación del paquete “FreeRadius” <a name="freeradius-install"></a>
+### 1.Instalación del paquete “FreeRadius” <a name="freeradius-install"></a>
 
 Lo primero que debemos realizar es instalar el paquete necesario para realizar la
 configuración.
