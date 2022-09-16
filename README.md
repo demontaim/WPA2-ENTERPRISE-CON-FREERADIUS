@@ -209,11 +209,11 @@ nuestro servidor Radius.
 
 Para ello debemos ir al apartado de configuración de nuestra WiFi:
 
-<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_wifi_config.png" alt="UniFi WiFi Config"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_wifi_config.png" alt="UniFi WiFi Config" witdh="200px" height="500px"></p>
 
 Seleccionamos nuestra red:
 
-<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_wifi_network.png" alt="UniFi WiFi Network"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_wifi_network.png" alt="UniFi WiFi Network" witdh="200px" height="500px"></p>
 
 Una vez abierta la configuración de nuestra red debemos acceder a la configuración
 avanzada:
