@@ -213,7 +213,7 @@ Para ello debemos ir al apartado de configuración de nuestra WiFi:
 
 Seleccionamos nuestra red:
 
-<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_wifi_network.png" alt="UniFi WiFi Network"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_wifi_network.png" alt="UniFi WiFi Network" witdh="250px" height="200px"></p>
 
 Una vez abierta la configuración de nuestra red debemos acceder a la configuración
 avanzada:
