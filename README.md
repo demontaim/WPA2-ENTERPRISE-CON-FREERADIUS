@@ -185,11 +185,11 @@ Para ello debemos darle de alta en los perfiles de nuesto AP:
 
 En esta pestaña encontraremos un apartado dedicado a los perfiles del servidor radius:
 
-<p align="center"><img src="unifi_radius.png" alt="UniFi Radius"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_radius_profiles.png?raw=true" alt="UniFi Radius"></p>
 
 Crearemos un perfil nuevo. Configurando los siguientes parámetros:
 
-<p align="center"><img src="unifi_radius_config.png" alt="UniFi Radius Config"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_radius_config.png?raw=true" alt="UniFi Radius Config"></p>
 
 **Name:** Nombre que le daremos al perfil y que hace referencia a nuestro servidor Radius.
 
