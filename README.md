@@ -235,19 +235,19 @@ Para realizar una prueba de autentificación voy a realizarla en un iPhone 12, e
 
 Seleccionamos nuestro AP:
 
-<p align="center"><img src="iphone_wifi.png" alt="iPhone WiFi"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/iphone_wifi.jpg" alt="iPhone WiFi" witdh="200px" height="500px"></p>
 
 Insertamos nuestras credenciales:
 
-<p align="center"><img src="iphone_credentials.png" alt="iPhone Credentials"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/iphone_credentials.png" alt="iPhone Credentials" witdh="200px" height="500px"></p>
 
 Instalamos el certificado generado por nuestra entidad de confianza:
 
-<p align="center"><img src="iphone_cert.png" alt="iPhone Cert"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/iphone_cert.png" alt="iPhone Cert" witdh="200px" height="500px"></p>
 
 Comprobamos la conexión:
 
-<p align="center"><img src="iphone_connected.png" alt="iPhone Connected"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/iphone_connected.jpg" alt="iPhone Connected" witdh="200px" height="500px"></p>
 
 Hemos verificado que tenemos acceso con nuestras credenciales y que el punto de acceso
 queda configurado.
