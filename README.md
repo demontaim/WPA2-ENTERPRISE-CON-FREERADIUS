@@ -25,3 +25,14 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 * Paquete de FreeRadius para PfSense
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Freeradius_logo.svg/2560px-Freeradius_logo.svg.png" alt="FreeRadius" width="250" height="70"></p>
+
+### Guía paso a paso
+
+1. [Instalación del paquete “FreeRadius”](#freeradius-install)
+2. [Verificamos que se nos ha creado una CA](#freeradius-ca)
+3. [Configuración de las interfaces de nuestro servidor FreeRadius](#freeradius-interfaces)
+4. [Damos de alta todos los AP’s](#freeradius-ap)
+5. [Añadir usuarios a nuestro servidor FreeRadius](#freeradius-users)
+6. [Configuración de nuestro AP](#freeradius-ap-config)
+7. [Configurar la autenticación WPA2 / Enterprise](#freeradius-wpa2)
+8. [(TEST) Prueba de autenticación](#freeradius-test)
