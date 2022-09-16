@@ -53,4 +53,4 @@ PfSense:
 
 **System →Package Manager**
 
-<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/packagemanager.png?raw=true" alt="Package Manager"></p>
+<p align="left"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/packagemanager.png?raw=true" alt="Package Manager"></p>
