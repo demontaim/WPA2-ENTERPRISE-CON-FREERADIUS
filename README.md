@@ -114,3 +114,24 @@ también debemos incluirlo.
 Añadiremos uno configurando los siguientes parámetros:
 
 <p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/apconfig.png" alt="AP Config"></p>
+
+**Client IP:** Dirección IP del AP.
+
+**Client IP Version**: Versión de la IP del AP.
+
+**Client Shortname**: Nombre corto del AP que nosotros le ponemos para identificarla.
+
+**Client Shared Secret**: Clave compartida que debemos configurar en el AP más adelante y que usarán nuestro servidor Radius y nuestro AP para autenticarse.
+
+Despues de añadir los distintos AP's que se encuentran en nuestra red pasaríamos a la creación de usuarios en nuestro servidor.
+
+### 5.Añadir usuarios a nuestro servidor FreeRadius <a name="freeradius-users"></a>
+
+Para añadir usuarios a nuestro servidor debemos ir a la siguiente ruta:
+
+**Services → FreeRadius → Users**
+
+Una vez allí solo tenemos que añadir nuevos usuarios usando los siguientes parámetros por
+defecto:
+
+<p align="center"><img src="user_config.png" alt="AP Config"></p>
