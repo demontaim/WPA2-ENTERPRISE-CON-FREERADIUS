@@ -181,7 +181,7 @@ siguiente imagen:
 
 Para ello debemos darle de alta en los perfiles de nuesto AP:
 
-<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_profiles.png" alt="UniFi Profiles"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/unifi_profiles.png" alt="UniFi Profiles" witdh="200px" height="500px"></p>
 
 En esta pestaña encontraremos un apartado dedicado a los perfiles del servidor radius:
 
