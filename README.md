@@ -2,13 +2,13 @@
 
 ---
 
-### ¿Cómo funciona FreeRadius?
+## ¿Cómo funciona FreeRadius?
 
 Es un protocolo de autenticación y autorización para aplicaciones de acceso a la red, en nuestro caso red inalámbrica (WiFi). Cuando se realiza la conexión con un punto de acceso WiFi, en lugar de una clave de red típica, se enviará un nombre de usuario y una contraseña. 
 
 ---
 
-### Herramientas utilizadas
+## Herramientas utilizadas
 
 * 1 Access Point (UniFi AC-PRO)
 
@@ -30,7 +30,7 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 
 ---
 
-### Guía paso a paso
+## Guía paso a paso
 
 1. [Instalación del paquete “FreeRadius”](#freeradius-install)
 2. [Verificamos que se nos ha creado una CA](#freeradius-ca)
@@ -43,4 +43,12 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 
 ---
 
-#### Instalación del paquete “FreeRadius” <a name="freeradius-install"></a>
+### Instalación del paquete “FreeRadius” <a name="freeradius-install"></a>
+
+Lo primero que debemos realizar es instalar el paquete necesario para realizar la
+configuración.
+
+Lo encontraremos en la siguiente ruta una vez nos situemos en el panel de control de
+PfSense:
+
+**System →Package Manager**
