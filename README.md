@@ -53,4 +53,4 @@ PfSense:
 
 **System →Package Manager**
 
-<p align="center"><img src="https://i.imgur.com/0Z7Z7Zm.png" alt="Package Manager" width="500" height="300"></p>
+<p align="center"><img src="https://.png" alt="Package Manager" width="500" height="300"></p>
