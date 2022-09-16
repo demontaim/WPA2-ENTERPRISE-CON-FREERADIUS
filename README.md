@@ -96,8 +96,21 @@ Añadiremos una nueva interfaz con los siguientes parámetros:
 
 Añadiremos una segunda interfaz de tipo **“Accounting”** con los siguientes parámetros:
 
-<p align="center"><img src="accounting.png" alt="Account Interface"></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/accounting.png?raw=true" alt="Account Interface"></p>
 
 Listo por ahora deberían verse dos interfaces en nuestro dashboard tal que así:
 
-<p align="center"><img src="dashboardinterface.png" alt="Interface Dashboard "></p>
+<p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/dashboard_interface.png?raw=true" alt="Interface Dashboard "></p>
+
+### 4.Damos de alta todos los AP’s <a name="freeradius-ap"></a>
+
+Para dar de alta nuestros puntos de acceso debemos ir a la siguiente ruta:
+
+**Services → FreeRadius → Nas / Clients**
+
+Cabe destacar que si tenemos algún controlador en nuestra red por ejemplo un Ruckus
+también debemos incluirlo.
+
+Añadiremos uno configurando los siguientes parámetros:
+
+<p align="center"><img src="" alt="AP Config"></p>
