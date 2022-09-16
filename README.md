@@ -60,4 +60,17 @@ Una vez nos situamos en el manejador de paquetes de PfSense debemos buscar en
 
 <p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/packagemanager.png?raw=true" alt="Freeradius Package"></p>
 
-<p align="center"><img src="https://www.svgrepo.com/show/178970/eye-medical.svg" alt="ATTENTION PLEASE" width="30px" height="30px"><em>Cabe destacar que a mí no me aparece ya que lo tengo ya instalado.</em></p>
+<p align="left"><img src="https://www.svgrepo.com/show/178970/eye-medical.svg" alt="ATTENTION PLEASE" width="30px" height="30px"><em>Cabe destacar que a mí no me aparece ya que lo tengo ya instalado.</em></p>
+
+### Verificamos que se nos ha creado una CA <a name="freeradius-ca"></a>
+
+Una vez hemos instalado nuestro paquete **FreeRadius** podemos ver como se nos ha
+creado automáticamente una autoridad gestora de certificados con el nombre de
+**FreeRadius CA** y un certificado para la autenticación llamado **FreeRadius Server**
+**Certificate**.
+
+Lo podemos comprobar si nos situamos en la siguiente ruta:
+
+**System → Cert Manager → CA’s**
+
+
