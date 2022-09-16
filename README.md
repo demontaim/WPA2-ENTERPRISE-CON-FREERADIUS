@@ -62,7 +62,7 @@ Una vez nos situamos en el manejador de paquetes de PfSense debemos buscar en
 
 <p align="left"><img src="https://www.svgrepo.com/show/178970/eye-medical.svg" alt="ATTENTION PLEASE" width="30px" height="30px"><em>Cabe destacar que a mí no me aparece ya que lo tengo ya instalado.</em></p>
 
-### Verificamos que se nos ha creado una CA <a name="freeradius-ca"></a>
+### 2.Verificamos que se nos ha creado una CA <a name="freeradius-ca"></a>
 
 Una vez hemos instalado nuestro paquete **FreeRadius** podemos ver como se nos ha
 creado automáticamente una autoridad gestora de certificados con el nombre de
@@ -79,7 +79,7 @@ Lo podemos comprobar si nos situamos en la siguiente ruta:
 
 <p align="center"><img src="img" alt="Freeradius Certificate"></p>
 
-### Configuración de las interfaces de nuestro servidor FreeRadius <a name="freeradius-interfaces"></a>
+### 3.Configuración de las interfaces de nuestro servidor FreeRadius <a name="freeradius-interfaces"></a>
 
 Una vez realizada la instalación podemos continuar con la configuración de nuestras
 interfaces por la que un usuario al acceder al Wifi va a poder autenticarse con nuestro
@@ -93,3 +93,11 @@ Crearemos en nuestro caso una para la **“Autenticación”**:
 Añadiremos una nueva interfaz con los siguientes parámetros:
 
 <p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/auth_interface.png" alt="Auth Interface"></p>
+
+Añadiremos una segunda interfaz de tipo **“Accounting”** con los siguientes parámetros:
+
+<p align="center"><img src="accounting.png" alt="Account Interface"></p>
+
+Listo por ahora deberían verse dos interfaces en nuestro dashboard tal que así:
+
+<p align="center"><img src="dashboardinterface.png" alt="Interface Dashboard "></p>
