@@ -52,3 +52,5 @@ Lo encontraremos en la siguiente ruta una vez nos situemos en el panel de contro
 PfSense:
 
 **System →Package Manager**
+
+<p align="center"><img src="https://i.imgur.com/0Z7Z7Zm.png" alt="Package Manager" width="500" height="300"></p>
