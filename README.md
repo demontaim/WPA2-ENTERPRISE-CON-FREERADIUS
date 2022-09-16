@@ -12,7 +12,7 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 
 * 1 Access Point (UniFi AC-PRO)
 
-<p align="center"><img src="https://cdn.shopify.com/s/files/1/0019/7518/9613/products/UAP-AC-PRO_grande.png?v=1616583501" alt="UniFi AC-PRO" width="150" height="150"></p>
+<p align="left"><img src="https://cdn.shopify.com/s/files/1/0019/7518/9613/products/UAP-AC-PRO_grande.png?v=1616583501" alt="UniFi AC-PRO" width="150" height="150"></p>
 
 * Software controlador de nuestro AP (UniFi Controller)
 
@@ -22,11 +22,11 @@ Es un protocolo de autenticación y autorización para aplicaciones de acceso a 
 
 * Instancia de PfSense configurada
 
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/PfSense_logo.png/1200px-PfSense_logo.png" alt="PfSense" width="250" height="70"></p>
+<p align="left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/PfSense_logo.png/1200px-PfSense_logo.png" alt="PfSense" width="250" height="70"></p>
 
 * Paquete de FreeRadius para PfSense
 
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Freeradius_logo.svg/2560px-Freeradius_logo.svg.png" alt="FreeRadius" width="250" height="70"></p>
+<p align="left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Freeradius_logo.svg/2560px-Freeradius_logo.svg.png" alt="FreeRadius" width="250" height="70"></p>
 
 ---
 
