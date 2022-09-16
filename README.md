@@ -60,4 +60,4 @@ Una vez nos situamos en el manejador de paquetes de PfSense debemos buscar en
 
 <p align="center"><img src="https://github.com/demontaim/WPA2-ENTERPRISE-CON-FREERADIUS/blob/main/img/packagemanager.png?raw=true" alt="Freeradius Package"></p>
 
-<p align="left"><img src="https://www.svgrepo.com/show/178970/eye-medical.svg" alt="ATTENTION PLEASE"></p>
+<p align="left"><img src="https://www.svgrepo.com/show/178970/eye-medical.svg" alt="ATTENTION PLEASE" width="20px" height="20px"></p>
